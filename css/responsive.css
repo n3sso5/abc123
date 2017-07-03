@@ -1,0 +1,122 @@
+/*	Media 768Px Start */
+@media (min-width: 768px) and (max-width: 990px) {
+	.as-menuwrapper { display: inline-block; }
+	.main-navigation { display: none; }
+	/* Header */
+	.ec-topbar,.ec-bottom-section { text-align: center; }
+	.ec-topbar [class*="col-md-"] { display: inline-block; }
+	.ec-logo { padding-bottom: 14px; }
+	.ec-button-section { padding-top: 32px; }
+	.ec-sticky .ec-mainheader { position: static; }
+	/* Banner */
+	.ec-caption h1 { font-size: 30px; }
+	.as-captiontitle { display: none; }
+	.ec-caption a { padding: 8px 20px; font-size: 14px; }
+	.caption-right-section { width: 40%; } .ec-right-caption .caption-right-section { right: 0px; }
+	.caption-left-section { margin: -120px 0px 0px 0px; } .caption-left-section { margin-top: -160px; }
+	.ec-page-title h1 { line-height: 1.2; }
+	/* Content */
+	.ec-main-content .col-md-3 { width: 33.333%; display: inline-block; margin: 0px -4px 30px 0px; vertical-align: top; }
+	.ec-main-content .col-md-4 { width: 50%; display: inline-block; margin: 0px -4px 30px 0px; vertical-align: top; }
+	.ec-main-content .col-md-6,.ec-main-content .col-md-12 { float: left; width: 100%; }
+	.ec-main-content .col-md-6 .col-md-4 { width: 33.333%; }
+	.col-md-6.ec-white-info { margin-bottom: 30px; }
+	.ec-main-content aside.col-md-3 { width: 100%; }
+	.ec-main-content aside.col-md-3 .widget { width: 50%; display: inline-block; margin: 0px 0px 30px -4px; vertical-align: top; padding: 0px 10px; float: none; }
+
+	/* Footer */
+	.ec-footer-widget [class*="col-md-"] { display: inline-block; width: 50%; margin-right: -4px; vertical-align: top; }
+	.ec-bottom-section [class*="col-md-"] { width: 100%; float: left; }
+	.ec-social-network { float: none; display: inline-block; margin: 10px 0px 0px 0px; }
+	.backtop-btn { top: -175%; }
+
+}
+
+/* Media 420Px Start */
+@media (max-width: 767px) {
+	.as-menuwrapper { display: inline-block; }
+	.main-navigation { display: none; }
+	/* Header */
+	.ec-mainheader,body.home .ec-mainheader { background-color: #000; margin-bottom: 0px; }
+	.ec-topbar,.ec-mainheader,.ec-bottom-section { text-align: center; }
+	.ec-topbar [class*="col-md-"] { display: inline-block; }
+	.ec-information li,.ec-listbar li,.ec-logo { display: inline-block; float: none; }
+	.ec-mainheader [class*="col-md-"] { float: left; width: 100%; }
+	.as-menuwrapper { padding-top: 26px; }
+	.ec-left-section { padding-bottom: 30px; }
+	.as-menuwrapper { padding-left: 0px; }
+	.ec-button-section { padding-top: 22px; }
+	.ec-sticky .ec-mainheader { position: static; }
+	.ec-information li:before, .ec-listbar li:before { display: none; }
+	/* Banner */
+	.caption-left-section img { display: none; }
+	.ec-caption h1 { font-size: 14px; }
+	.as-captiontitle { display: none; }
+	.ec-caption a { padding: 8px 20px; font-size: 12px; }
+	.caption-right-section { width: 70%; } .ec-right-caption .caption-right-section { right: 0px; }
+	.caption-left-section { margin-top: -180px; }
+	.flex-direction-nav a { padding: 14px 10px; }
+	.ec-page-title h1 { line-height: 1.2; }
+	/* Content */
+	.ec-main-content .col-md-3 { width: 50%; display: inline-block; margin: 0px 0px 30px -4px; vertical-align: top; }
+	.ec-main-content .col-md-4 { width: 50%; display: inline-block; margin: 0px 0px 30px -4px; vertical-align: top; }
+	.ec-main-content .col-md-6,.ec-main-content .col-md-12 { float: left; width: 100%; }
+	.ec-main-content aside.col-md-3 { width: 100%; }
+	.ec-main-content aside.col-md-3 .widget { width: 50%; display: inline-block; margin: 0px 0px 30px -4px; vertical-align: top; padding: 0px 10px; float: none; }
+	/* Promotion */
+	.promotion-caption-view .ec-promotion-info { width: 100%; }
+	/* Blog */
+	.ec-blog-medium .ec-blog-thumb { width: 100%; }
+	.ec-blog-medium .ec-blog-thumb ~ .ec-blog-info { padding: 0px; }
+	.ec-blog-medium .ec-blog-info { float: left; width: 100%; }
+	.ec-medium-view .blog-info-inner { margin-left: 0px; }
+	/* 404 */
+	.ec-404page h2 { font-size: 40px; }
+	.ec-404page h3 { font-size: 60px; }
+	.ec-booking-form { width: 300px; right: -5px; } .ec-booking-form form > ul > li { width: 100%; }
+	.ec-main-content .col-md-6 .col-md-4 { width: 33.333%; }
+	.col-md-6.ec-white-info { margin-bottom: 30px; }
+	.ec-teamlist-view figure ~ .ec-team-information { padding: 21px 30px 30px 30px; float: left; width: 100%; }
+	.ec-teamlist-view .ec-team-information { padding: 21px 30px 30px 30px; float: left; width: 100%; }
+	.ec-team.ec-teamlist-view figure { width: 100%; }
+	.ec-frame { margin-bottom: 30px; }
+
+	/* Footer */
+	.ec-footer-widget [class*="col-md-"] { display: inline-block; width: 50%; margin-right: -4px; vertical-align: top; }
+	.ec-bottom-section [class*="col-md-"] { width: 100%; float: left; }
+	.ec-social-network { float: none; display: inline-block; margin: 10px 0px 0px 0px; }
+	.backtop-btn { top: -75px; }
+
+}
+
+/* Media 300Px Start */
+@media (max-width: 480px) {
+	/* Banner */
+	.caption-left-section { display: none; }
+	/* Content */
+	.ec-main-content .col-md-3,.ec-main-content .col-md-4 { width: 100%; margin-left: 0px; }
+	.ec-main-content aside.col-md-3 .widget { width: 100%; }
+	/* Promotion */
+	.ec-promotion-info ul li { display: none; }
+	/* BlogDetail */
+	#eccomments ul li figure ~ .text { margin: 0px; float: left; width: 100%; }
+	#eccomments ul ul.children {  padding-left: 30px;}
+	.ec-form form p,.ec-booking-form form > ul > li { width: 100%; }
+	.ec-main-content .col-md-6 .col-md-4 { width: 100%; }
+	.ec-blog-medium.ec-flipgrid .ec-blogoption li a i { display: none; }
+	.ec-blog-medium.ec-flipgrid .ec-blogoption li { padding-left: 0px; padding-right: 0px; }
+	.ec-author-thumb ~ time { float: left; margin-top: 8px; }
+	.ec-blog-medium.ec-flipgrid .ec-blogoption { margin-top: 12px; }
+	.ec-custom-button a { margin-bottom: 15px; }
+
+	/* Footer */
+	.ec-footer-widget [class*="col-md-"] { width: 100%; margin-right: 0px; }
+	.backtop-btn { top: -70px; }
+
+}
+
+/* Media 940Px Start */
+@media screen and (min-width: 991px) and (max-width: 1054px) {
+	.main-navigation > ul > li > a { padding: 35px 10px; }
+	.ec-sticky .main-navigation > ul > li > a { padding: 26px 10px; }
+}

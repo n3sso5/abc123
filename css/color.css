@@ -1,0 +1,25 @@
+/* ThemeColor */
+.ec-color,.ec-colorhover:hover,.widget_latest_news ul li:hover .ec-latest-info a,
+.ec-hexagon-view ul li:hover h5,.ec-counter ul li i,
+.ec-modren-team ul li:hover h5 a,.ec-blog ul li:hover .ec-grid-info h5 a,.ec-blogoption li:hover a,.ec-blog-medium ul li:hover .ec-blog-info h4 a,
+ul li:hover .ec-newsinfo h6 a,blockquote,#eccomments ul li .text a.replay-button:hover, #eccomments ul li .text a.comment-button:hover,
+.ec-about-list .ec-about-inn:hover section h6 a,.countdown-period,.ec-shop-list ul li:hover .ec-shopinfo h6 a,.panel-title a:before,
+.ec-square-view ul li:hover .ec-square-icon,.main-navigation > ul > li:hover > a,.main-navigation > ul > li.active > a,.ec-breadcrumb li.active a,
+.ec-breadcrumb li:hover a {
+	color: #e5a427;
+}
+
+.ec-bgcolor,.ec-bgcolorhover:hover,.main-navigation > ul > li:hover > a:before,.main-navigation > ul > li.active > a:before,.main-navigation .as-dropdown > li:hover > a,
+.widget_latest_news ul li:hover time,.ec-social-network ul li:hover a,.ec-hexagon-view ul li:hover .hexagon,.owl-nav div:hover,
+.ec-team-info ul li:hover a,.ec-modren-team ul li:hover .ec-next-button,.ec-pagination li:hover a,.ec-pagination li.active a,.ec-tags a:hover,
+.ec-multiple-link li a:hover,.ec-button:hover,.nav-tabs > li.active > a,.panel-title a.collapsed:before,.panel-title a,.ec-custom-button a:hover,
+.ec-booking-form ul li input[type="submit"]:hover,.flex-direction-nav a:hover {
+	background-color: #e5a427;
+}
+
+.ec-bordercolor,.ec-bordercolorhover:hover,.widget_testimonial figure,.ec-square-view ul li:hover .ec-square-icon {
+	border-color: #e5a427;
+}
+.nav-tabs > li.active > a:before {
+	border-top-color: #e5a427;
+}
