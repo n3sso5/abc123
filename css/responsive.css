@@ -3,7 +3,7 @@
 	.as-menuwrapper { display: inline-block; }
 	.main-navigation { display: none; }
 	/* Header */
-	.ec-topbar,.ec-bottom-section { text-align: center; }
+	.ec-topbar,.ec-bottom-section { text-align: center;}
 	.ec-topbar [class*="col-md-"] { display: inline-block; }
 	.ec-logo { padding-bottom: 14px; }
 	.ec-button-section { padding-top: 32px; }
