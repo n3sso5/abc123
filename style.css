@@ -415,6 +415,8 @@ body.home .ec-mainheader {
 .ec-logo {
 	float: left;
 	padding: 14px 0px 0px 0px;
+    width: 100px;
+    height: 100px;
 }
 /* MainNavigation */
 .ec-left-section {
