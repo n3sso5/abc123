@@ -372,7 +372,7 @@ body.home .ec-mainheader {
 .ec-mainheader {
 	float: left;
 	width: 100%;
-	background-color: rgba(0,0,0,0.40);
+	background-color: black;
 	border-bottom: 1px solid rgba(255, 255, 255, 0.08);
 	position: relative;
 	z-index: 10;
@@ -396,7 +396,7 @@ body.home .ec-mainheader {
 	margin: 18px 0px 0px 0px;
 }
 .ec-sticky-logo > img {
-    width: 150px;
+    width: 105px;
 }
 .ec-sticky .main-navigation > ul > li > a {
 	color: #333;
@@ -407,14 +407,14 @@ body.home .ec-mainheader {
 	color: #ffffff;
 }
 .ec-sticky .main-navigation > ul > li > a {
-	padding: 26px 16px;
+	padding: px 16px;
 }
 .ec-sticky .ec-button-section { padding-top: 23px; }
 
 /* Logo */
 .ec-logo {
 	float: left;
-	padding: 14px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
     width: 100px;
     height: 100px;
 }
@@ -552,27 +552,6 @@ body.home .ec-header-three .ec-mainheader {
 	float: right;
 	padding: 30px 0px 0px 0px;
 	position: relative;
-}
-.ec-cart {
-	float: left;
-	position: relative;
-	color: #ffffff;
-}
-.ec-cart i {
-	font-size: 26px;
-}
-.ec-cart span {
-	position: absolute;
-	right: -10px;
-	top: -6px;
-	background-color: #ffffff;
-	width: 20px;
-	height: 20px;
-	color: #000;
-	border-radius: 100%;
-	font-size: 12px;
-	text-align: center;
-	line-height: 1.6;
 }
 .ec-booking-button {
 	float: left;
