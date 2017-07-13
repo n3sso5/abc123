@@ -280,9 +280,8 @@ address {font-style: italic;}
 	position: relative;
 }
 .ec-frame {
-	float: left;
-	width: 100%;
-	border: 10px solid rgba(255, 255, 255, 0.1);
+	float: right;
+    padding-right: 135px;
 }
 /* TopBaar */
 .ec-topbar {
@@ -441,7 +440,7 @@ body.home .ec-mainheader {
 	float: left;
 	padding: 35px 16px;
 	font-size: 14px;
-	font-family: 'Oswald', sans-serif;
+	font-family: 'verdana', sans-serif;
 	letter-spacing: 0.5px;
 	position: relative;
 	font-weight: normal;
@@ -663,6 +662,7 @@ body.home .ec-header-three .ec-mainheader {
 	width: 100%;
 	text-align: center;
 	margin-bottom: 32px;
+    padding: 50px;
 }
 .ec-align-left { text-align: left; }
 .ec-fancy-title.ec-align-left { margin-bottom: 10px; }
@@ -1707,6 +1707,7 @@ blockquote:after {
 }
 .ec-page-title { margin-bottom: 15px; }
 .ec-page-title h1 {
+    text-align: center;
 	margin: 0px 0px 10px 0px;
 	line-height: 0.9;
 	color: #333333;
